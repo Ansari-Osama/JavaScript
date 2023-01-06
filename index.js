@@ -46,3 +46,17 @@
 // Q) What is NaN?
 // NaN is a property of the global object. In other words it is a variable in global scope.
 // When you subtract two strings then you will get NaN i.e. Not a Number.
+// var myPhoneNumber = 9876543210;
+// console.log(isNaN(myPhoneNumber));
+// var name = "XYZ";
+// console.log(isNaN(name));
+
+// Challange Time 3.
+// console.log(NaN === NaN)    false
+// console.log(Number.NaN === NaN)  false
+// console.log(isNaN(NaN));     true
+// console.log(isNaN(Number.NaN));     true
+// console.log(Number.isNaN(NaN));     true
+
+
+// 3 - Expressions and Operators.
