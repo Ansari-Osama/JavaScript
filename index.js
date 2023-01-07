@@ -60,3 +60,88 @@
 
 
 // 3 - Expressions and Operators.
+// Expression is the combination of Operand and Operators.
+// There are 6 types of Operators in JS.
+// 1) Arithmetic Operator
+// 2) Relational or Comparision Operator
+// 3) Logical Operator
+// 4) Assignment Operator
+// 5) String Operator
+// 6) Conditional(Ternary) Operator
+
+
+// 4 - Control Statements & Loops.
+// var tomorrow = "rain";
+// if (tomorrow == "rain") {
+//     console.log("Take an Umbrella");
+// }
+// else {
+//     console.log("No Need to Take an Umbrella");
+// }
+
+
+// Challange Time 5.
+// WAP that works out if a given yaer is a leap year or not?
+// var year = 2017;
+// if (year % 4 == 0 && ((year % 100 != 0) || (year % 400 == 0))) {
+//     console.log(year + " is a Leap Year");
+// }
+// else {
+//     console.log(year + " is Not a Leap Year");
+// }
+
+// What is truthy and falsy in Javascript?
+// We have total 5 falsy values in JS -> 0, " ", undefined, null and NaN.
+// Whenever you will provide any false condition then directly else block will execute.
+// if (score = 0) {
+//     console.log("OMG, We Loss the Game..");
+// }
+// else {
+//     console.log("Yayy, We Won the Game....");
+// }
+
+// var age = 20;
+// console.log((age >= 18) ? "You are Eligible to Vote" : "You are Not Eligible to Vote"
+// );
+
+
+// Challange Time 6.
+// JavaScript program to print table for given number (8,9,12,15) using for loop?
+// var num = 9;
+// for (var i = 1; i <= 10; i++) {
+//     console.log(num + " * " + i + " = " + (num * i));
+// }
+
+
+// 5 - Functions in JavaScript.
+// Functions are block of code which is used to execute block of code repetatively.
+// function sum(a, b) {     Parameters
+//     return a + b;
+// }
+// console.log(sum(2, 2));  Arguments
+
+// Interview Question 4.
+// Q) Why Functions?
+// FUnctions are used for reusability of code just by changing different arguments. You can once define the function and reuse it again and again and DRY(Do Not Repeat Yourself) 
+
+// Function Expression.
+// It simply means create a function and put it into the variables.
+
+// function sum(a, b) {
+//     return a + b;
+// }
+// functionExpression = sum(10, 10);
+// console.log(functionExpression);
+
+
+// Anonymous Function.
+// Functions without any name is called as Anonymous Function.
+
+// var anonymous = function (a, b) {
+//     return a * b;
+// }
+// console.log(anonymous(10, 10));
+
+
+
+// Welcome to ECMAScript.
