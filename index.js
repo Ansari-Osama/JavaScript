@@ -145,3 +145,97 @@
 
 
 // Welcome to ECMAScript.
+// In 1996 Javascript was created, ECMAScript in 1997 and ES6 introduces in 2015.
+
+// LET VS CONST VS VAR
+// var myName = 'Osama';
+// console.log(myName);
+// myName = 'Osama Ansari';
+// console.log(myName);
+
+
+// let myName = 'Osama';
+// console.log(myName);
+// myName = 'Osama Ansari';
+// console.log(myName);
+
+
+// const myName = 'Osama';
+// console.log(myName);
+// myName = 'Osama Ansari';
+// console.log(myName);
+
+// We can change the values of var and let but we cant change the value of const. var is function scope and let and const is block scope.
+
+// function bioData() {
+//     var firstName = "Osama";
+//     console.log(firstName);
+//     if (true) {
+//         var lastName = "Ansari";
+//         console.log("Inner " + firstName);
+//         console.log("Inner " + lastName);
+//     }
+//     console.log("InnerOuter " + lastName);
+// }
+
+// console.log(bioData());
+
+
+
+
+// function bioData() {
+//     let firstName = "Osama";
+//     console.log(firstName);
+//     if (true) {
+//         let lastName = "Ansari";
+//         console.log("Inner " + firstName);
+//         console.log("Inner " + lastName);
+//     }
+//     console.log("InnerOuter " + lastName);
+// }
+
+// console.log(bioData());
+
+
+
+
+// function bioData() {
+//     const firstName = "Osama";
+//     console.log(firstName);
+//     if (true) {
+//         const lastName = "Ansari";
+//         console.log("Inner " + firstName);
+//         console.log("Inner " + lastName);
+//     }
+//     console.log("InnerOuter " + lastName);
+// }
+
+// console.log(bioData());
+
+
+// Template Literals (Template Strings)
+// let num = 9;
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`${num} * ${i} = ${num * i}`);
+// }
+
+// Default Parameters
+// function mult(a, b = 2) {
+//     return a * b;
+// }
+// console.log(mult(5));
+
+
+// Fat Arrow Function.
+// var sum = function (a, b) {
+//     return `Sum of ${a} and ${b} is ${a + b}`;
+// }
+// console.log(sum(2, 2));
+
+
+// const sum = (a, b = 5) => `Sum of ${a} and ${b} is ${a + b}`;
+// console.log(sum(5));
+
+
+
+// 6 - Arrays in JavaScript.
