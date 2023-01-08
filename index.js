@@ -122,7 +122,7 @@
 
 // Interview Question 4.
 // Q) Why Functions?
-// FUnctions are used for reusability of code just by changing different arguments. You can once define the function and reuse it again and again and DRY(Do Not Repeat Yourself) 
+// FUnctions are used for reusability of code just by changing different arguments. You can once define the function and reuse it again and again and DRY(Do Not Repeat Yourself)
 
 // Function Expression.
 // It simply means create a function and put it into the variables.
@@ -239,3 +239,5 @@
 
 
 // 6 - Arrays in JavaScript.
+// var myFriends = ['ABC', 'PQR', "XYZ"];
+// console.log(myFriends[1]);
